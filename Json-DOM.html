@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Puslapis</title>
+</head>
+<body>
+<h1 id="main-heading" onmouseenter ="changeColor()" ></h1>
+<p id="main-paragraph" onmouseenter = "changeSize()"></p>
+<script src="JS.js">
+</script>
+<br>
+<!--sukurti forma (html faile) su id="nforma". Ji turi tureti du inputo laukus, viena vardui kita pavardei ir mygtukui " SUBMIT ". Parasyti koda, kuris paraso koda, kuris paraso i konsole varda ir pavarde
+-->
+<form id="nforma" action="/action_page.php" onsubmit="Print()">
+	<br>
+  Vardas:  <input type="text" name="fname">
+  Pavarde: <input type="text" name="lname">
+  <input type="submit" name="submit">
+</form>	
+
+
+</body>
+</html>
